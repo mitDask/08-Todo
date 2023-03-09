@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* display: block; */
+}
+
+.done {
+  text-decoration: line-through;
+  background-color: rgb(179, 231, 179);
+}
+
+.par {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 10%;
+}
+
+input {
+  margin-bottom: 10%;
+  border-radius: 20px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(247, 247, 191);
+  color: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 15px;
+  box-sizing: 600px;
+  margin: 10%;
+  padding: 5%;
+  position: relative;
+  background-color: rgb(198, 143, 250);
+}
+
+.deleteBtn {
+  position: absolute;
+  margin-left: 68%;
+  margin-top: -10%;
+  /* border-radius: 10px; */
+  border-style: hidden;
+  /* background-color: rgb(153, 144, 144); */
+  background-color: rgb(198, 143, 250);
+
+  color: white;
+}
+
+li {
+  margin-bottom: 6%;
+  list-style: none;
+  border-style: hidden;
+  background-color: rgb(247, 247, 191);
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  width: 190px;
+}
+
+.add {
+  font-size: 20px;
+  background-color: rgb(198, 143, 250);
+  color: white;
+  border-style: hidden;
+  position: absolute;
+}
+
+@media screen and (min-width: 400px) {
+  .par {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+
+  input {
+    margin-bottom: 10%;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(247, 247, 191);
+    color: black;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    border-radius: 15px;
+    box-sizing: 600px;
+    margin: 10%;
+    padding: 5%;
+    position: relative;
+    background-color: rgb(198, 143, 250);
+  }
+
+  .deleteBtn {
+    position: absolute;
+    margin-left: -90;
+    margin-top: -12%;
+    /* position: static; */
+
+    /* border-radius: 10px; */
+    border-style: hidden;
+    /* background-color: rgb(153, 144, 144); */
+    background-color: rgb(198, 143, 250);
+
+    color: white;
+  }
+
+  li {
+    margin-bottom: 6%;
+    list-style: none;
+    border-style: hidden;
+    background-color: rgb(247, 247, 191);
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    width: 190px;
+  }
+
+  .add {
+    font-size: 20px;
+    background-color: rgb(198, 143, 250);
+    color: white;
+    border-style: hidden;
+    position: absolute;
+  }
+}
+
+@media (min-width: 580px) {
+  .par {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+
+  input {
+    margin-bottom: 10%;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(247, 247, 191);
+    color: black;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    border-radius: 15px;
+    box-sizing: 600px;
+    margin: 10%;
+    padding: 5%;
+    position: relative;
+    background-color: rgb(198, 143, 250);
+  }
+
+  .deleteBtn {
+    position: absolute;
+    margin-left: 68%;
+    margin-top: -10%;
+    /* border-radius: 10px; */
+    border-style: hidden;
+    /* background-color: rgb(153, 144, 144); */
+    background-color: rgb(198, 143, 250);
+
+    color: white;
+  }
+
+  li {
+    margin-bottom: 6%;
+    list-style: none;
+    border-style: hidden;
+    background-color: rgb(247, 247, 191);
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    width: 190px;
+  }
+
+  .add {
+    font-size: 20px;
+    background-color: rgb(198, 143, 250);
+    color: white;
+    border-style: hidden;
+    position: absolute;
+  }
+}
+
+@media (min-width: 760px) {
+  .par {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+
+  input {
+    margin-bottom: 10%;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(247, 247, 191);
+    color: black;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    border-radius: 15px;
+    box-sizing: 600px;
+    margin: 10%;
+    padding: 5%;
+    position: relative;
+    background-color: rgb(198, 143, 250);
+  }
+
+  .deleteBtn {
+    position: absolute;
+    margin-left: 68%;
+    margin-top: -10%;
+    /* border-radius: 10px; */
+    border-style: hidden;
+    /* background-color: rgb(153, 144, 144); */
+    background-color: rgb(198, 143, 250);
+
+    color: white;
+  }
+
+  li {
+    margin-bottom: 6%;
+    list-style: none;
+    border-style: hidden;
+    background-color: rgb(247, 247, 191);
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    width: 190px;
+  }
+
+  .add {
+    font-size: 20px;
+    background-color: rgb(198, 143, 250);
+    color: white;
+    border-style: hidden;
+    position: absolute;
+  }
+}
